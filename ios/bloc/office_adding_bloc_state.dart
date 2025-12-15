@@ -1,0 +1,6 @@
+part of 'office_adding_bloc_bloc.dart';
+
+@immutable
+sealed class OfficeAddingBlocState {}
+
+final class OfficeAddingBlocInitial extends OfficeAddingBlocState {}
