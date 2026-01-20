@@ -119,7 +119,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
 
   int getDiscountedPrice(int price, String period) {
     if (period == 'year') {
-      return (price * 10); // 2 months free
+      return (price); // 2 months free
     }
     return price;
   }

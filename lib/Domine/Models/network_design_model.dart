@@ -1,4 +1,3 @@
-// import 'package:network_mapping_app/Application/Presentation/NetworkDesignScreen/networkdesign.dart'; // Removed unused import
 class NetworkDesignModel {
   String? id;
   String name;

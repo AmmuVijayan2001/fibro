@@ -608,7 +608,6 @@ class _DistanceInputFieldState extends State<DistanceInputField> {
   @override
   void didUpdateWidget(covariant DistanceInputField oldWidget) {
     super.didUpdateWidget(oldWidget);
-    // Don't overwrite if actively typing to prevent cursor jumps
   }
 
   @override
